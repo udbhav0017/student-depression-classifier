@@ -14,11 +14,16 @@ import streamlit as st
 st.set_page_config(page_title="Student Depression Predictor", page_icon="🧠", layout="wide")
 ROOT = Path(__file__).parent
 ARTIFACTS = ROOT / "artifacts"
+MODEL_PATH = ARTIFACTS / "depression_model.joblib"
+DEPLOYED_MODEL_PATH = ROOT / "depression_model.joblib"
 
 
 @st.cache_resource
 def load_model():
-    return joblib.load(ARTIFACTS / "depression_model.joblib")
+    # The normal local layout stores the model in artifacts/. The fallback
+    # supports the repository's deployment layout when GitHub stores it at root.
+    path = MODEL_PATH if MODEL_PATH.exists() else DEPLOYED_MODEL_PATH
+    return joblib.load(path)
 
 
 @st.cache_data
@@ -32,7 +37,7 @@ def load_dataset(path_text: str) -> pd.DataFrame:
 
 
 st.title("Student Depression Predictor")
-if not (ARTIFACTS / "depression_model.joblib").exists():
+if not MODEL_PATH.exists() and not DEPLOYED_MODEL_PATH.exists():
     st.error("No trained model found. Run train.py first; see README.md.")
     st.stop()
 
