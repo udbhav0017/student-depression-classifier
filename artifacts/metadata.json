@@ -1,0 +1,38 @@
+{
+  "target": "Depression",
+  "features": [
+    "Gender",
+    "Age",
+    "City",
+    "Academic Pressure",
+    "CGPA",
+    "Study Satisfaction",
+    "Job Satisfaction",
+    "Sleep Duration",
+    "Dietary Habits",
+    "Degree",
+    "Have you ever had suicidal thoughts ?",
+    "Work/Study Hours",
+    "Financial Stress",
+    "Family History of Mental Illness"
+  ],
+  "numeric_columns": [
+    "Age",
+    "Academic Pressure",
+    "CGPA",
+    "Study Satisfaction",
+    "Job Satisfaction",
+    "Work/Study Hours",
+    "Financial Stress"
+  ],
+  "categorical_columns": [
+    "Gender",
+    "City",
+    "Sleep Duration",
+    "Dietary Habits",
+    "Degree",
+    "Have you ever had suicidal thoughts ?",
+    "Family History of Mental Illness"
+  ],
+  "source_file": "C:\\Users\\Udbhav618\\Downloads\\Student Depression Dataset sumit"
+}
