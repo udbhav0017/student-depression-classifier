@@ -1,0 +1,174 @@
+{
+  "Age": {
+    "kind": "numeric",
+    "median": 25.0,
+    "min": 18.0,
+    "max": 59.0
+  },
+  "Academic Pressure": {
+    "kind": "numeric",
+    "median": 3.0,
+    "min": 0.0,
+    "max": 5.0
+  },
+  "CGPA": {
+    "kind": "numeric",
+    "median": 7.77,
+    "min": 0.0,
+    "max": 10.0
+  },
+  "Study Satisfaction": {
+    "kind": "numeric",
+    "median": 3.0,
+    "min": 0.0,
+    "max": 5.0
+  },
+  "Job Satisfaction": {
+    "kind": "numeric",
+    "median": 0.0,
+    "min": 0.0,
+    "max": 4.0
+  },
+  "Work/Study Hours": {
+    "kind": "numeric",
+    "median": 8.0,
+    "min": 0.0,
+    "max": 12.0
+  },
+  "Financial Stress": {
+    "kind": "numeric",
+    "median": 3.0,
+    "min": 1.0,
+    "max": 5.0
+  },
+  "Gender": {
+    "kind": "categorical",
+    "options": [
+      "Female",
+      "Male"
+    ]
+  },
+  "City": {
+    "kind": "categorical",
+    "options": [
+      "3",
+      "Agra",
+      "Ahmedabad",
+      "Bangalore",
+      "Bhavna",
+      "Bhopal",
+      "Chennai",
+      "City",
+      "Delhi",
+      "Faridabad",
+      "Gaurav",
+      "Ghaziabad",
+      "Harsh",
+      "Harsha",
+      "Hyderabad",
+      "Indore",
+      "Jaipur",
+      "Kalyan",
+      "Kanpur",
+      "Khaziabad",
+      "Kibara",
+      "Kolkata",
+      "Less Delhi",
+      "Less than 5 Kalyan",
+      "Lucknow",
+      "Ludhiana",
+      "M.Com",
+      "M.Tech",
+      "ME",
+      "Meerut",
+      "Mihir",
+      "Mira",
+      "Mumbai",
+      "Nagpur",
+      "Nalini",
+      "Nalyan",
+      "Nandini",
+      "Nashik",
+      "Patna",
+      "Pune",
+      "Rajkot",
+      "Rashi",
+      "Reyansh",
+      "Saanvi",
+      "Srinagar",
+      "Surat",
+      "Thane",
+      "Vaanya",
+      "Vadodara",
+      "Varanasi",
+      "Vasai-Virar",
+      "Visakhapatnam"
+    ]
+  },
+  "Sleep Duration": {
+    "kind": "categorical",
+    "options": [
+      "5-6 hours",
+      "7-8 hours",
+      "Less than 5 hours",
+      "More than 8 hours",
+      "Others"
+    ]
+  },
+  "Dietary Habits": {
+    "kind": "categorical",
+    "options": [
+      "Healthy",
+      "Moderate",
+      "Others",
+      "Unhealthy"
+    ]
+  },
+  "Degree": {
+    "kind": "categorical",
+    "options": [
+      "B.Arch",
+      "B.Com",
+      "B.Ed",
+      "B.Pharm",
+      "B.Tech",
+      "BA",
+      "BBA",
+      "BCA",
+      "BE",
+      "BHM",
+      "BSc",
+      "Class 12",
+      "LLB",
+      "LLM",
+      "M.Com",
+      "M.Ed",
+      "M.Pharm",
+      "M.Tech",
+      "MA",
+      "MBA",
+      "MBBS",
+      "MCA",
+      "MD",
+      "ME",
+      "MHM",
+      "MSc",
+      "Others",
+      "PhD"
+    ]
+  },
+  "Have you ever had suicidal thoughts ?": {
+    "kind": "categorical",
+    "options": [
+      "No",
+      "Yes"
+    ]
+  },
+  "Family History of Mental Illness": {
+    "kind": "categorical",
+    "options": [
+      "No",
+      "Yes"
+    ]
+  }
+}
